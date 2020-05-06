@@ -6,7 +6,7 @@
 
 Build OpenWrt using GitHub Actions
 
-forked from [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
+forked from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 
 ## 说明
@@ -22,6 +22,25 @@ forked from [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
 - 在线编译单个设备的OpenWrt固件，例如：Phicomm K2P、HiWiFi HC5962、Redmi AC2100
 - 生成config.seed编译配置文件
 - 用生成的config.seed文件开启[多设备自动编译](https://github.com/molun/Auto-Build-OpenWrt) 
+
+## 使用方法
+- Frok 本项目或者点击[使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库
+- 点击 Actions 并授予执行权限
+- 点击 Star 触发 Actions 编译流程
+- 在 Actions→Build OpenWrt→Build 下查看 SSH connection to Actions 信息
+________________________________________________________________________________
+To connect to this session copy-n-paste the following into a terminal or browser:
+
+ssh xnAycRt49vGC2EpVVfeAZGTVt@sfo2.tmate.io
+
+https://tmate.io/t/xnAycRt49vGC2EpVVfeAZGTVt
+
+After connecting you can run 'touch /tmp/keepalive' to disable the 30m timeout
+
+________________________________________________________________________________
+- 出现以上类似信息时，复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl + C 即可）
+- cd openwrt && make menuconfig
+- 完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行
 
 
 ## 致谢
@@ -39,7 +58,7 @@ forked from [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
 - [Cowtransfer](https://cowtransfer.com)
 - [WeTransfer](https://wetransfer.com/)
 - [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
+- [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 ## License
 
