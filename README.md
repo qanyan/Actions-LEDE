@@ -10,21 +10,23 @@ forked from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 
 ## 说明
+
 - 默认采用[Lean's lede](https://github.com/coolsnowwolf/lede)源码编译
 - 默认IP地址：192.168.2.1
 - 默认用户名：root
 - 默认登录密码：password
 
-点击[使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库，开启固件编译
-
 
 ## 用途
+
 - 在线编译单个设备的OpenWrt固件，例如：Phicomm K2P、HiWiFi HC5962、Redmi AC2100
 - 生成config.seed编译配置文件
-- 用生成的config.seed文件开启[多设备自动编译](https://github.com/molun/Auto-Build-OpenWrt) 
+- 用生成的config.seed文件开启 [多设备自动编译](https://github.com/molun/Auto-Build-OpenWrt) 
+
 
 ## 使用方法
-- [Frok 本项目](https://github.com/molun/Actions-OpenWrt/fork) 或者点击[使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库
+
+- [Frok 本项目](https://github.com/molun/Actions-OpenWrt/fork) 或者点击 [使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库
 - 点击 Actions 并授予执行权限
 - 点击 Star 触发 Actions 编译流程
 - 在 Actions→Build OpenWrt→Build 下查看 SSH connection to Actions 信息
@@ -59,6 +61,7 @@ ________________________________________________________________________________
 - [WeTransfer](https://wetransfer.com/)
 - [Mikubill/transfer](https://github.com/Mikubill/transfer)
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
+
 
 ## License
 
