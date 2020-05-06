@@ -5,10 +5,11 @@
 ![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
 
 Build OpenWrt using GitHub Actions
+
 forked from [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
 
 
-##说明
+## 说明
 - 默认采用[Lean's lede](https://github.com/coolsnowwolf/lede)源码编译
 - 默认IP地址：192.168.2.1
 - 默认用户名：root
@@ -17,7 +18,7 @@ forked from [P3TERX/Actions-OpenWrt](https://github.com/molun/Actions-OpenWrt)
 点击[使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库，开启固件编译
 
 
-##用途：
+## 用途：
 - 在线编译单个设备OpenWrt固件
 - 生成config.seed编译配置文件
 - 用生成的config.seed文件开启[多设备自动编译](https://github.com/molun/Auto-Build-OpenWrt) 
