@@ -26,7 +26,7 @@ forked from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 ## 使用方法
 
-- [Frok 本项目](https://github.com/molun/Actions-OpenWrt/fork) 或者点击 [使用此模板](https://github.com/molun/Actions-OpenWrt/generate) 创建你自己的仓库
+- [Frok 本项目](https://github.com/molun/Actions-LEDE/fork) 或者点击 [使用此模板](https://github.com/molun/Actions-LEDE/generate) 创建你自己的仓库
 - 点击 Actions 并授予执行权限
 - 点击 Star 触发 Actions 编译流程
 - 在 Actions→Build OpenWrt→Build 下查看 SSH connection to Actions 信息
@@ -65,4 +65,4 @@ ________________________________________________________________________________
 
 ## License
 
-[MIT](https://github.com/molun/Actions-OpenWrt/blob/master/LICENSE) © molun
+[MIT](https://github.com/molun/Actions-LEDE/blob/master/LICENSE) © molun
