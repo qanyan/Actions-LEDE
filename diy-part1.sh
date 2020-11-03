@@ -21,5 +21,3 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/molun/lu
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/molun/luci-app-jd-dailybonus
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/molun/luci-theme-opentopd
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/molun/luci-theme-infinityfreedom
-
-
