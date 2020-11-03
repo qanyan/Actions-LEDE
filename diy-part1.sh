@@ -15,6 +15,11 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git jerrykuku https://github.com/jerrykuku/luci-app-jd-dailybonus' feeds.conf.default
-sed -i '$a src-git opentopd https://github.com/sirpdboy/luci-theme-opentopd' feeds.conf.default
-sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom' feeds.conf.default
+
+# Define My Package
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/molun/luci-app-adguardhome
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/molun/luci-app-jd-dailybonus
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/molun/luci-theme-opentopd
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/molun/luci-theme-infinityfreedom
+
+
