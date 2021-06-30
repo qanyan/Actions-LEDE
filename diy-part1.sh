@@ -26,5 +26,11 @@ sed -i '$a src-git opentopd  https://github.com/sirpdboy/luci-theme-opentopd' fe
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/molun/luci-app-jd-dailybonus
 #git clone https://github.com/sirpdboy/luci-theme-opentopd package/molun/luci-theme-opentopd
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/molun/luci-theme-infinityfreedom
-
+git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-app-vssr
+git clone https://github.com/garypang13/luci-app-bypass
+git clone https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
+git clone https://github.com/tty228/luci-app-serverchan
 
